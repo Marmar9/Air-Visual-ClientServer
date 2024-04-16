@@ -1,0 +1,9 @@
+{
+    "include": [
+        "src/**/*.py" // Modify this path according to your project structure
+    ],
+    "python.analysis.extraPaths": [
+        "./src" // Modify this path according to your project structure
+    ]
+}
+
