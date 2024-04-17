@@ -2,7 +2,7 @@ from __future__ import annotations
 
 from typing import List
 
-from pydantic import BaseModel, constr
+from pydantic import BaseModel
 
 class Location(BaseModel):
     type: str

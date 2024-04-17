@@ -1,5 +1,4 @@
 from fastapi import FastAPI
-from hypercorn.asyncio import serve
 from controllers.GetDataController import GetDataController
 from controllers.PostDataController import PostDataController
 from datarepository import DataRepository
